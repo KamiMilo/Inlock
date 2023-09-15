@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PsVun6SusOK7obZEGXtfNO10uzfPHXO1BB30CeFx27g=",
+  "Source": "WebApi.InLock.DBfirst",
+  "BasePath": "_content/WebApi.InLock.DBfirst",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

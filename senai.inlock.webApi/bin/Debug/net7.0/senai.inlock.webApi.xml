@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>senai.inlock.webApi</name>
+    </assembly>
+    <members>
+        <member name="M:senai.inlock.webApi.Controllers.EstudiosController.Get">
+            <summary>
+            Endpoint que aciona o método de Listar
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:senai.inlock.webApi.Controllers.EstudiosController.Post(senai.inlock.webApi.Domains.EstudiosDomain)">
+            <summary>
+            Endpoint que aciona o método cadastrar
+            </summary>
+            <param name="novojogo"></param>
+            <returns>StatusCode 201</returns>
+        </member>
+        <member name="M:senai.inlock.webApi.Controllers.EstudiosController.Delete(System.Int32)">
+            <summary>
+            End point que aciona o método de deletar
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:senai.inlock.webApi.Controllers.JogosController.Get">
+            <summary>
+            Endpoint que aciona o método listar
+            </summary>
+            <returns>Lista de jogos</returns>
+        </member>
+        <member name="M:senai.inlock.webApi.Controllers.JogosController.Post(senai.inlock.webApi.Domains.JogosDomain)">
+            <summary>
+            Endpoint que aciona o método cadastrar
+            </summary>
+            <param name="novojogo"></param>
+            <returns>StatusCode 201</returns>
+        </member>
+        <member name="M:senai.inlock.webApi.Controllers.JogosController.Delete(System.Int32)">
+            <summary>
+            Endpoint que aciona o método deletar
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:senai.inlock.webApi.Controllers.UsuarioController.Post(senai.inlock.webApi.Domains.UsuariosDomain)">
+            <summary>
+            endpoint que aciona o método de login do usuario
+            </summary>
+            <param name="usuarioLogin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:senai.inlock.webApi.Interfaces.IjogosRepository.Cadastrar(senai.inlock.webApi.Domains.JogosDomain)">
+            <summary>
+            Método para cadastrar novo jogo
+            </summary>
+            <param name="NovoJogo"></param>
+        </member>
+        <member name="M:senai.inlock.webApi.Interfaces.IjogosRepository.ListarTodos">
+            <summary>
+            Método de Listar jogos existentes no banco de dados
+            </summary>
+            <returns>Lista De Jogos</returns>
+        </member>
+        <member name="M:senai.inlock.webApi.Interfaces.IjogosRepository.Deletar(System.Int32)">
+            <summary>
+            Método que deleta um jogo passando seu Id.
+            </summary>
+            <param name="Id"></param>
+        </member>
+        <member name="M:senai.inlock.webApi.Repositories.JogosRepository.Cadastrar(senai.inlock.webApi.Domains.JogosDomain)">
+            <summary>
+            Método para cadastrar um novo Jogo
+            </summary>
+            <param name="NovoJogo"></param>
+            <exception cref="T:System.NotImplementedException"></exception>
+            
+        </member>
+        <member name="M:senai.inlock.webApi.Repositories.JogosRepository.Deletar(System.Int32)">
+            <summary>
+            método para deletar um jogo passando seu id.
+            </summary>
+            <param name="Id"></param>
+        </member>
+        <member name="M:senai.inlock.webApi.Repositories.JogosRepository.ListarTodos">
+            <summary>
+            Método para listar os jogos existentes no banco de dados.
+            </summary>
+            <returns>Lista de Jogos</returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="F:senai.inlock.webApi.Repositories.UsuariosRepository.StringConexao">
+            <summary>
+            Método para login do usuario 
+            </summary>
+            <param name="email"></param>
+            <param name="senha"></param>
+            <returns></returns>
+            
+        </member>
+    </members>
+</doc>
